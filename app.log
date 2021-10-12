@@ -1,0 +1,28 @@
+2021-10-12 11:43:03.272  INFO 10144 --- [main] c.e.d.SareetaApplicationTests            : Starting SareetaApplicationTests on DESKTOP-8QVON41 with PID 10144 (started by Parachutes in G:\AUdacity\Java Web Development\Project eCommerce\nd035-c4-Security-and-DevOps\starter_code)
+2021-10-12 11:43:03.278  INFO 10144 --- [main] c.e.d.SareetaApplicationTests            : No active profile set, falling back to default profiles: default
+2021-10-12 11:43:03.869  INFO 10144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-10-12 11:43:03.951  INFO 10144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74ms. Found 4 repository interfaces.
+2021-10-12 11:43:04.510  INFO 10144 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$be0d7ecd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-12 11:43:04.766  INFO 10144 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-10-12 11:43:04.944  INFO 10144 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-10-12 11:43:05.016  INFO 10144 --- [main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-10-12 11:43:05.085  INFO 10144 --- [main] o.h.Version                              : HHH000412: Hibernate Core {5.3.10.Final}
+2021-10-12 11:43:05.087  INFO 10144 --- [main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-10-12 11:43:05.273  INFO 10144 --- [main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-10-12 11:43:05.398  INFO 10144 --- [main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-12 11:43:06.093  INFO 10144 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-12 11:43:06.782  WARN 10144 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-12 11:43:06.890  INFO 10144 --- [main] o.s.s.w.DefaultSecurityFilterChain       : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77925f76, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e02fb23, org.springframework.security.web.header.HeaderWriterFilter@51b41740, org.springframework.web.filter.CorsFilter@15a8bbe5, org.springframework.security.web.authentication.logout.LogoutFilter@53d2b827, com.example.demo.security.JWTAuthenticationFilter@3369e2ce, com.example.demo.security.JWTAuthenticationVerficationFilter@5f26cb8b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c1687d1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21ed4a51, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a2a56f6, org.springframework.security.web.session.SessionManagementFilter@57a0c261, org.springframework.security.web.access.ExceptionTranslationFilter@5ca7619f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5598dff2]
+2021-10-12 11:43:07.262  INFO 10144 --- [main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-10-12 11:43:07.546  INFO 10144 --- [main] c.e.d.SareetaApplicationTests            : Started SareetaApplicationTests in 4.542 seconds (JVM running for 6.564)
+2021-10-12 11:43:07.966  INFO 10144 --- [main] c.e.d.c.UserController                   : Submitting order suceeded for User TestUser
+2021-10-12 11:43:07.972 ERROR 10144 --- [main] c.e.d.c.UserController                   : Submit Order failed, No User found with Name TestUser_Wrong
+2021-10-12 11:43:07.999 ERROR 10144 --- [main] c.e.d.c.UserController                   : Cannot create User because of invalid Password
+2021-10-12 11:43:08.004 ERROR 10144 --- [main] c.e.d.c.UserController                   : Cannot create User because of invalid Password
+2021-10-12 11:43:08.013  INFO 10144 --- [main] c.e.d.c.UserController                   : New User TestUser created
+2021-10-12 11:43:08.031  INFO 10144 --- [Thread-4] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-10-12 11:43:08.032  INFO 10144 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-12 11:43:08.034  INFO 10144 --- [Thread-4] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-10-12 11:43:08.036  INFO 10144 --- [Thread-4] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
